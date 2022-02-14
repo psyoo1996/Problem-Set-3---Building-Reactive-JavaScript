@@ -41,9 +41,9 @@ function changeColor(){
 function convertTemp(){
     //Calculate the temperature here
     //Send the calculated temperature to HTML
-    var f = document.getElementById('c-output').value;
+    var f = document.getElementById('convertbtn').value;
     var c = (f - 32) * 5/9;
-    alert(c);
+    return(c);
 }
 
 
